@@ -1,0 +1,21 @@
+{
+  "name": "source_localforage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "localforage:install": "pnpm --prefix localforage install",
+    "build": "pnpm --prefix localforage build",
+    "publish": "cd localforage && yalc publish && cd -",
+    "push": "cd localforage && yalc push && cd -",
+    "vite:install": "pnpm --prefix demo-vite install",
+    "add": "cd demo-vite && yalc add localforage@1.10.0 && cd -",
+    "install": "pnpm run localforage:install & pnpm run vite:install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "yalc": "1.0.0-pre.53"
+  }
+}

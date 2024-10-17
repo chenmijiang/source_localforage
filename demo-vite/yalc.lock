@@ -1,0 +1,10 @@
+{
+  "version": "v1",
+  "packages": {
+    "localforage": {
+      "version": "1.10.0",
+      "signature": "53b0c6ea836f489996a7b7a24c5cd8bc",
+      "file": true
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  // 配置 node 声明
+  "compilerOptions": {
+    "declaration": true,
+    "declarationDir": "./dist/types",
+    "composite": true
+  }
+}

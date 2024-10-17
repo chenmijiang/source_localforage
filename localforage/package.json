@@ -1,0 +1,46 @@
+{
+    "name": "localforage",
+    "author": "Mozilla",
+    "license": "Apache-2.0",
+    "description": "Offline storage, improved.",
+    "type": "module",
+    "keywords": [
+        "indexeddb",
+        "localstorage",
+        "storage",
+        "websql"
+    ],
+    "version": "1.10.0",
+    "homepage": "https://github.com/localForage/localForage",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/localForage/localForage.git"
+    },
+    "scripts": {
+        "build": "rollup -c",
+        "dev": "rollup -c -w",
+        "prettify": "prettier --write \"src/**/*.js\" \"test/**/*.js\""
+    },
+    "devDependencies": {
+        "@babel/core": "^7.25.8",
+        "@babel/preset-env": "^7.25.8",
+        "@rollup/plugin-babel": "^6.0.4",
+        "@rollup/plugin-commonjs": "^28.0.1",
+        "@rollup/plugin-node-resolve": "^15.3.0",
+        "@rollup/plugin-replace": "^6.0.1",
+        "@rollup/plugin-terser": "^0.4.4",
+        "eslint": "^9.12.0",
+        "mocha": "^10.7.3",
+        "prettier": "^3.3.3",
+        "rollup": "^4.24.0",
+        "serve": "^14.2.4"
+    },
+    "main": "dist/localforage.js",
+    "typings": "typings/localforage.d.ts",
+    "bugs": {
+        "url": "http://github.com/localForage/localForage/issues"
+    },
+    "dependencies": {
+        "lie": "3.1.1"
+    }
+}
