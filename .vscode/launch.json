@@ -9,8 +9,9 @@
       "request": "launch",
       "name": "Launch Chrome",
       "userDataDir": "${workspaceFolder}/.vscode/chrome",
+      "cwd": "${workspaceFolder}/demo-vite",
       "url": "http://localhost:3000",
-      "webRoot": "${workspaceFolder}"
+      "webRoot": "${workspaceFolder}/demo-vite",
     }
   ]
 }

@@ -10,7 +10,7 @@ localforage 使用 grunt 打包，不方便调试，已手动改成 rollup 打�
 $ pnpm install & pnpm run install
 ```
 
-2. 打包并 yalc 发布
+2. 打包并本地发布
 
 ```bash
 $ pnpm run build
@@ -29,6 +29,8 @@ $ pnpm run add
 
 4. 调试
 
-> 单独打开 demo-vite 项目调试，不然源码无法映射
+```bash
+$ pnpm run dev
+```
 
-vscode 调试环境已经配置，启动项目打好断点，然后 VSCode 调试面板选择 `Launch Chrome` 即可。
+vscode 调试环境已经配置，启动项目打好断点，然后 VSCode 调试面板选择 `Launch Chrome` 即可。了解更多[调试技巧](https://code.visualstudio.com/docs/nodejs/reactjs-tutorial#_debugging-react)

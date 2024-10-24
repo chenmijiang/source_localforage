@@ -10,7 +10,8 @@
     "push": "cd localforage && yalc push && cd -",
     "vite:install": "pnpm --prefix demo-vite install",
     "add": "cd demo-vite && yalc add localforage@1.10.0 && cd -",
-    "install": "pnpm run localforage:install & pnpm run vite:install"
+    "install": "pnpm run localforage:install & pnpm run vite:install",
+    "dev": "pnpm --prefix demo-vite dev"
   },
   "keywords": [],
   "author": "",
